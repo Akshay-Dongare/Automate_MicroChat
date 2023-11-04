@@ -1,0 +1,32 @@
+{
+    "Test": {
+        "Test_Module": "Profile",
+        "Test_Scenario": "Verify Profile functionality",
+        "Test_Cases": [
+            {
+                "Test_Id": "profile#1",
+                "Description": "Verify whether profile gets updated with vaild credentials",
+                "Pre_Condition": "Login Required",
+                "Test_Data": {
+                    "name": "TesterRocks",
+                    "mobile": "9874563210",
+                    "bio": "Hi, there i am a tester!"
+                },
+                "Expected_Outcome": "Successful to change profile data",
+                "Test_Type": "positive"
+            },
+            {
+                "Test_Id": "profile#2",
+                "Description": "Verify whether profile gets updated with invalid mobilenumber",
+                "Pre_Condition": "Login Required",
+                "Test_Data": {
+                    "name": "ToryLacks",
+                    "mobile": "983210",
+                    "bio": "Hi, there i am a tester!"
+                },
+                "Expected_Outcome": "Failed to update the profile data",
+                "Test_Type": "negative"
+            }
+        ]
+    }
+}
