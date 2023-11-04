@@ -1,0 +1,14 @@
+.idea
+test.py
+venv
+__pycache__
+.vscode
+/build_files/
+.env
+.vercel
+tailwind.config.js
+data.db
+node_modules
+package-lock.json
+package.json
+app/record.log
