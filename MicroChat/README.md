@@ -1,18 +1,9 @@
-# Yarro
-Yarro is a social networking website made in flask
+# MicroChat
+MicroChat is a social networking website made in flask
 ## Try it out
 [https://yarro.onrender.com](https://yarro.onrender.com)
 
-# Run locally
 
-## Requirements
-- python 3.6+
-- mysql server (optional)
-
-## Usage
-- clone the repo
-```
-git clone https://github.com/asyncdoggo/Yarro.git
 ```
 - install requirements using pip
 ```
